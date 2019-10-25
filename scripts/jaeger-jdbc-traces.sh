@@ -1,6 +1,9 @@
 #! /bin/bash
 # Given a traceId from Jaeger, This script will fetch that trace
-# and spit out det
+# and spit queries details
+# dependencies:
+# - jq
+# - curl
 
 TRACE_ID=$1
 TRACE_SPANS="data/spans-$TRACE_ID.json"
