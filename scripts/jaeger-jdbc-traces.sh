@@ -3,6 +3,7 @@
 # and spit queries details
 # dependencies:
 # - jq
+# - curl
 
 TRACE_ID=$1
 TRACE_SPANS="data/spans-$TRACE_ID.json"
