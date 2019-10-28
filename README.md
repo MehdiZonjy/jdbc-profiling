@@ -2,7 +2,7 @@
 I tend to use few tools whenever i find myself needing to profile JDBC and monitoring what queries my apps are making.
 
 ## OpenTracing JDBC Tracer and Jaeger
-If you happen to be using [opentracing](http://opentracing.io) to trace your application, [java-jdbc](https://github.com/opentracing-contrib/java-jdbc) is a great tool to add to your aresenal (altead dev env) to give you visibility on what queries get executed in each tace.
+If you happen to be using [opentracing](http://opentracing.io) to trace your application, [java-jdbc](https://github.com/opentracing-contrib/java-jdbc) is a great tool to add to your aresenal (only tested in dev env) to give you visibility on what queries get executed in each tace.
 
 I wrote this script to help me measure how many queries are getting executed per table.
 
